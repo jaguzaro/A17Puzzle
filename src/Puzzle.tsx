@@ -39,8 +39,8 @@ function Puzzle() {
 
                         <JigsawPuzzle
                             imageSrc={images[puzzleSolved]}
-                            rows={2}
-                            columns={2}
+                            rows={3}
+                            columns={3}
                             onSolved={() => {
                                 if (solvedOnce.current) return;
                                 solvedOnce.current = true;
